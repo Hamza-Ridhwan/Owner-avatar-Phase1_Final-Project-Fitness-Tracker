@@ -19,6 +19,9 @@ The application works perfectly well, no bugs.
 ## Technologies Used
 HTML, CSS , JavaScript, GIT, json - server
 
+## Live Server
+https://hamza-ridhwan.github.io/Phase1_Final-Project-Fitness-Tracker/ 
+
 ## Support and contact details
 email :: Hamzathehamzah@gmail.com
 
