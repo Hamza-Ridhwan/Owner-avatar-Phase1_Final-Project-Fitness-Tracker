@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <a href="#"><img src="./page-logo/Fitness-Logo.webp" alt="Fitness Logo" class="header-logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#logworkout">Log Workout</a></li>
+                    <li><a href="#progress">Progress</a></li>
+                </ul>
+            </nav>
+            <section class="search-workouts">
+                <input type="text" id="search-input" placeholder="Search by exercise type">
+            </section>
+        </div>
+    </header>
+
+    <main>
+        <div class="content-container">
+            <!-- Intro Content Section -->
+            <section id="Home" class="intro-content">
+                <h2>Fitness Tracker</h2>
+                <p>Welcome to the workout tracker! Track your daily progress and stay fit!</p>
+            </section>
+
+            <!-- Log Workout Form Section -->
+            <section id="logworkout"class="log-workout-form">
+                <h2>Log Your Workout</h2>
+                <form id="workout-form">
+                    <label for="exercise-type">Exercise Type:</label>
+                    <input type="text" id="exercise-type" placeholder="e.g. Running" required>
+
+                    <label for="duration">Duration (minutes):</label>
+                    <input type="number" id="duration" placeholder="e.g. 30" required>
+
+                    <label for="calories">Calories Burned:</label>
+                    <input type="number" id="calories" placeholder="e.g. 300" required>
+
+                    <button type="submit">Log Workout</button>
+                </form>
+            </section>
+
+            <!-- Progress Section -->
+            <section  id = "progress" class="progress-details">
+                <h2>Your Progress</h2>
+                <ul id="workout-list"></ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright ...</p>
+        <div class="social-media-icons">
+         <!-- To be added in the future -->
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
