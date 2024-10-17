@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Fetch all workouts (READ operation)
     function fetchWorkouts() {
-        fetch('http://localhost:3000/workouts')
+        fetch('https://phase1-final-project-fitness-tracker.onrender.com/workouts')
             .then((response) => response.json())
             .then((data) => {
                 workouts = data;  // Store all workouts in the array
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Create a new workout (CREATE operation)
     function createWorkout(workout) {
-        fetch('http://localhost:3000/workouts', {
+        fetch('https://phase1-final-project-fitness-tracker.onrender.com/workouts', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Update workout details (UPDATE operation)
     function updateWorkout(id, updatedWorkout) {
-        fetch(`http://localhost:3000/workouts/${id}`, {
+        fetch(`https://phase1-final-project-fitness-tracker.onrender.com/workouts/${id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json'
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Delete workout (DELETE operation)
     function deleteWorkout(id) {
-        fetch(`http://localhost:3000/workouts/${id}`, {
+        fetch(`https://phase1-final-project-fitness-tracker.onrender.com/workouts/${id}`, {
             method: 'DELETE'
         })
         .then(() => {
