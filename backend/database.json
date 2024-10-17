@@ -1,0 +1,40 @@
+{
+  "workouts": [
+    {
+      "id": "23b2",
+      "exerciseType": "push up1",
+      "duration": "70",
+      "calories": "900"
+    },
+    {
+      "id": "2c7b",
+      "exerciseType": "cycling",
+      "duration": "90",
+      "calories": "8099"
+    },
+    {
+      "id": "47e8",
+      "exerciseType": "running",
+      "duration": "97",
+      "calories": "9800"
+    },
+    {
+      "id": "5062",
+      "exerciseType": "Swinmin",
+      "duration": null,
+      "calories": null
+    },
+    {
+      "exerciseType": "push up-op",
+      "duration": "55",
+      "calories": "900",
+      "id": "qP3us8L"
+    },
+    {
+      "exerciseType": "Hamza",
+      "duration": "9000",
+      "calories": "98",
+      "id": "q3lEbIA"
+    }
+  ]
+}
