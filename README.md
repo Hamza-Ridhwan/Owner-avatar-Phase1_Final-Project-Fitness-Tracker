@@ -25,4 +25,4 @@ email :: Hamzathehamzah@gmail.com
 ## License
 LIcenced under the MT-licence
 
-Copyright (c) 2024 Kelvin Kipchumba
+Copyright (c) 2024 Hamza-Ridhwan
