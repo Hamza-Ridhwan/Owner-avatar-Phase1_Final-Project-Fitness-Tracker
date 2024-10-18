@@ -22,6 +22,9 @@ HTML, CSS , JavaScript, GIT, json - server
 ## Live Server
 https://hamza-ridhwan.github.io/Phase1_Final-Project-Fitness-Tracker/ 
 
+## Slide Deck
+https://docs.google.com/presentation/d/1ZhMvcnd8mP2FM7fgHSsnzT5WePOqBdh_lZO1BXnvBZc/edit?usp=sharing
+
 ## Support and contact details
 email :: Hamzathehamzah@gmail.com
 
